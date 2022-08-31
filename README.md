@@ -8,7 +8,7 @@ Easily implement optimistic [Eloquent](https://laravel.com/docs/6.x/eloquent) mo
 [![Downloads][downloads-image]][downloads-url]
 [![PHP Version][php-version-image]][php-version-url]
 [![License][license-image]](LICENSE)
-[![Fork][fork-image]](fork-url)
+[![Fork][fork-image]][fork-url]
 
 ### Installation
 
