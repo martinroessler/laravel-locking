@@ -13,7 +13,7 @@ Easily implement optimistic [Eloquent](https://laravel.com/docs/6.x/eloquent) mo
 ### Installation
 
 ```bash
-composer require martinroessler/laravel-locking
+composer require roessler/laravel-locking
 ```
 
 ### Usage
