@@ -41,7 +41,7 @@ trait LocksVersion
      */
     public function fillLockVersion()
     {
-        $this->{static::lockVersionColumnName()} = request()->input(static::lockVersionColumnName());
+        $this->{static::lockVersionColumnName()} = request()->input(static::lockVersionColumnName()) ?? $this->currentLockVersion();
     }
 
     /**
