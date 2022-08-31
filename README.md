@@ -1,4 +1,6 @@
-# quarks/laravel-locking
+# roessler/laravel-locking
+
+## This package is a fork of [qtsolv/laravel-locking](https://github.com/qtsolv/laravel-locking)
 
 Easily implement optimistic [Eloquent](https://laravel.com/docs/6.x/eloquent) model locking feature to your [Laravel](https://laravel.com/) app.
 
@@ -6,6 +8,7 @@ Easily implement optimistic [Eloquent](https://laravel.com/docs/6.x/eloquent) mo
 [![Downloads][downloads-image]][downloads-url]
 [![PHP Version][php-version-image]][php-version-url]
 [![License][license-image]](LICENSE)
+[![Fork][fork-image]](fork-url)
 
 ### Installation
 
@@ -120,3 +123,5 @@ See [LICENSE](LICENSE) file.
 [php-version-image]: http://img.shields.io/badge/php-7.2+-8892be.svg?style=flat-square
 [php-version-url]: https://www.php.net/downloads
 [license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[fork-image]: https://img.shields.io/badge/fork-qtsolv%2Flaravel%E2%88%92locking-red.svg?style=flat-square
+[fork-url]: https://github.com/qtsolv/laravel-locking
