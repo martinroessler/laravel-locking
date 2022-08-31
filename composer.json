@@ -1,5 +1,9 @@
 {
     "authors": [
+		{
+			"name": "Martin Rössler",
+			"email": "code@roessler.uk"
+		},
         {
             "name": "Vaibhav Pandey",
             "email": "vaibhav.pandey@qtsolv.com"
@@ -7,22 +11,22 @@
     ],
     "autoload": {
         "psr-4": {
-            "Quarks\\Laravel\\Locking\\": "src/"
+            "Roessler\\Laravel\\Locking\\": "src/"
         }
     },
     "config": {
         "sort-packages": true
     },
-    "description": "Easily implement optimistic Eloquent model locking feature to your Laravel app.",
+    "description": "Easily implement optimistic Eloquent model locking feature to your Laravel app. Extended original package of qtsolv/laravel-locking with a few features.",
     "extra": {
         "laravel": {
             "providers": [
-                "Quarks\\Laravel\\Locking\\LockingServiceProvider"
+                "Roessler\\Laravel\\Locking\\LockingServiceProvider"
             ]
         }
     },
     "license": "MIT",
-    "name": "quarks/laravel-locking",
+    "name": "roessler/laravel-locking",
     "prefer-stable": true,
     "require": {
         "php": ">=7.2"
